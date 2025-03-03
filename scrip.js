@@ -48,8 +48,39 @@ var a = parseFloat(prompt("Enter the value of side a:"));
 var b = parseFloat(prompt("Enter the value of side b:"));
 var c = parseFloat(prompt("Enter the value of side c:"));
 var s  = (a+b+c)/2;
+
 var temp = s*(s-a)*(s-b)*(s-c);
 var area = Math.sqrt(temp)
 console.log(area)
 
-//
+//5 sawaping using temporary variable
+//   giving a value to the b and b value to the a
+
+var a = prompt("Please enter the a value")
+var b = prompt("Please enter b the value")
+ console.log(`This value is: ${a}, This value is ${b}`)
+ var  temp;
+temp = a;
+ a = b;
+b = temp;
+console.log(`This value is: ${a}, This value is ${b}`)
+
+//5 without temperary variable
+var a = parseInt(prompt('Please enter the a value'))
+var b = parseInt(prompt('Please enter b the value'))
+ console.log(`This value is: ${a}, This value is ${b}`)
+
+a = a+b;
+b = a-b;
+a = a-b;
+console.log(`This value is: ${a}, This value is ${b}`)
+
+//6 convert in to miles 
+// user define function
+function convert(){
+    var kms = document.getElementById('data').value
+    const facter = 0.62137
+    var miles = kms  * facter
+    document.getElementById('result').innerText = `${miles} miles`
+}
+
