@@ -84,3 +84,12 @@ function convert(){
     document.getElementById('result').innerText = `${miles} miles`
 }
 
+//6 convert in to miles 
+// user define function
+function convert(){
+    var c = document.getElementById('data').value
+    var f = (c * 1.8) +32 ;
+    document.getElementById('result').innerText = `${f} Fahrenheit`
+}
+
+
