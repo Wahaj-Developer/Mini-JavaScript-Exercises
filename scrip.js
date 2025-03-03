@@ -101,3 +101,24 @@ function check() {
     document.getElementById('result').innerText = result;
 
 }
+
+//7 Check a number it is positive , negative , zero 
+
+function check() {
+
+    var value = document.getElementById('data').value;
+    if(value > 0){
+       result =`${value} is positive`;
+    }
+    else if(value < 0){
+        result =`${value} is negative`;
+    }
+    else if (value == 0) {
+        result =`${value} is zero`;
+    }
+    else{
+        result =`${value} is not a number`;
+    }
+ 
+    document.getElementById('result').innerText = result;
+}
