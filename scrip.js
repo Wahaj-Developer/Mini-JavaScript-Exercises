@@ -92,4 +92,12 @@ function convert(){
     document.getElementById('result').innerText = `${f} Fahrenheit`
 }
 
+//7 Check a number it is positive , negative , zero 
 
+function check() {
+
+    var value = document.getElementById('data').value;
+    var result = Math.sign(value)
+    document.getElementById('result').innerText = result;
+
+}
