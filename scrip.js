@@ -1,4 +1,4 @@
-//1  Print hellow word in three method
+  //1  Print hellow word in three method
 
  console.log("hellow world")
  alert("hellow world")
@@ -146,3 +146,14 @@ var x = Math.random()
 console.log("Before calculation "+x);
 x = x*10000;            //This genrate random ottp that companies end for security purposes
 console.log("After floor calculation calculation "+ Math.floor(x))
+
+
+//9 Cheack the number if it is evend or odd
+// Using if else statment
+var x = 3
+if (x%2 == 0){
+        console.log("Even number "+x)
+}
+else{
+    console.log("Odd number "+x)
+}
