@@ -124,10 +124,20 @@ function check() {
 }
 
 //8 Genrate a random number
-//this is for floating number start its in didit but when condition complet it get in to point exaple: x*(100-1)+1 1    
+//this is for floating number start its in didit but when condition complet it get in to point example: x*(100-1)+1 1    
 //45.07438682462163
 var x = Math.random()
-console.log("Before calculation"+x);
+console.log("Before calculation "+x);
 x = x*(10-1)+1; // change the number acording to your need for example want random num from 1 to 100 write x*(100-1)+1
-console.log("After calculation"+x)
+console.log("After calculation "+x)
+
+//8 Genrate a random number
+//this is for integer number start its in didit but when condition complet it get in to point example: x*(100-1)+1 1    45
+var x = Math.random()
+console.log("Before calculation "+x);
+x = x*(1000-1)+1; // change the number acording to your need for example want random num from 1 to 1000 write x*(1000-1)+1
+// and at the end the output come multiply it whith Math.floor>(x)
+console.log("After calculation "+x)
+console.log("After floor calculation calculation "+ Math.floor(x))
+
 
