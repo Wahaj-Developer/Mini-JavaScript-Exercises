@@ -157,3 +157,10 @@ if (x%2 == 0){
 else{
     console.log("Odd number "+x)
 }
+
+//9 Cheack the number if it is evend or odd
+// Using terminary operater
+var x = 4
+var res = x%2 == 0 ? "even" : "odd"
+console.log(x+ " is "+ res+ " number")
+
