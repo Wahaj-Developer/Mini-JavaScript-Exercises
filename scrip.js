@@ -141,3 +141,8 @@ console.log("After calculation "+x)
 console.log("After floor calculation calculation "+ Math.floor(x))
 
 
+//8 Genrate a random number
+var x = Math.random()
+console.log("Before calculation "+x);
+x = x*10000;            //This genrate random ottp that companies end for security purposes
+console.log("After floor calculation calculation "+ Math.floor(x))
