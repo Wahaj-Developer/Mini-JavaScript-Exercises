@@ -122,3 +122,12 @@ function check() {
  
     document.getElementById('result').innerText = result;
 }
+
+//8 Genrate a random number
+//this is for floating number start its in didit but when condition complet it get in to point exaple: x*(100-1)+1 1    
+//45.07438682462163
+var x = Math.random()
+console.log("Before calculation"+x);
+x = x*(10-1)+1; // change the number acording to your need for example want random num from 1 to 100 write x*(100-1)+1
+console.log("After calculation"+x)
+
