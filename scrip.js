@@ -234,3 +234,24 @@ else {
     }
     console.log("The factorial of "+ number +" is " + fact)
 }
+
+// Find the factorial of a number
+// Using recursion method
+ 
+var number = prompt("Please enter a number")
+var fact = 1;
+console.log(fact);
+function factrrr(n){
+    if (n>number){
+        return;
+    }
+    var temp =fact;
+    fact = fact * n;
+    console.log(temp + " x " + n + "=" +fact);
+    n++;
+    factrrr(n);
+}
+factrrr (1);
+
+console.log("The number of " + number + " factorial is = " +fact);
+
