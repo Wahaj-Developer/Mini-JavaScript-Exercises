@@ -194,3 +194,43 @@ var c = prompt("Please enter third number")
 var x = Math.max(a,b,c);
 console.log(x + " is large number")
 
+// 11 Find the largest num between three num
+// User define
+
+function check(p,q,r){
+    if (p >= q && p >= r){
+        return p;
+    }
+  else if (q >= p && q >= r){
+        return q;
+    }
+    
+   else{
+        return r;
+    }
+      
+}
+var a = prompt("Please enter first number")
+var b = prompt("Please enter second number number")
+var c = prompt("Please enter third number")
+var x =check(a,b,c);
+console.log(x + " is large number")
+
+//12 Find the factorial of a number
+// This factorial of a number is the product of all number from 1 to that number
+// Example: 1*2*3*4*5 = 120
+
+var number = prompt("Please enter a number") 
+var fact = 1;
+if (number == 0){
+    console.log("The factorial of "+ number +" is 1")
+}
+else if (number < 0){
+    console.log("The factorial of negative number is not possible")
+}
+else {
+    for (let i = 1;i<=number;  i++) {
+             fact = fact * i;
+    }
+    console.log("The factorial of "+ number +" is " + fact)
+}
