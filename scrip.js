@@ -185,3 +185,12 @@ if (number == 1) {
 }
     console.log.apply(res)
 }
+
+
+// 11 Find the largest num between three num
+var a = prompt("Please enter first number")
+var b = prompt("Please enter second number number")
+var c = prompt("Please enter third number")
+var x = Math.max(a,b,c);
+console.log(x + " is large number")
+
