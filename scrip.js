@@ -255,3 +255,13 @@ factrrr (1);
 
 console.log("The number of " + number + " factorial is = " +fact);
 
+//13 Write a program to print a number that is given by user
+// function table (number){
+//     for (var i = 1; i <=10;  i++) {
+//         var res = i*number;
+//         console.log(number+" x "+ i+ " = " + res  ) 
+        
+//     }
+// }
+//  table(5);   
+
