@@ -285,13 +285,13 @@ console.log("The number of " + number + " factorial is = " +fact);
 //  4  console.log(temp)
 //  5  console.log('------------')
 
-// }
-// if (sum == number){
-//     console.log(number+ " is armstrom number")
-//  }
-// else{
-//     console.log(number + " is not armstrome number")
-// }
+ }
+ if (sum == number){
+     console.log(number+ " is armstrom number")
+  }
+ else{
+     console.log(number + " is not armstrome number")
+ }
 
 //  1  console.log(temp)
 //  2  console.log(digit)
