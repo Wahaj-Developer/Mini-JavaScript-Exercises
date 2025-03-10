@@ -75,7 +75,7 @@ b = a-b;
 a = a-b;
 console.log(`This value is: ${a}, This value is ${b}`)
 
-//6 convert in to miles 
+//6 convert km in to miles 
 // user define function
 function convert(){
     var kms = document.getElementById('data').value
@@ -84,7 +84,7 @@ function convert(){
     document.getElementById('result').innerText = `${miles} miles`
 }
 
-//6 convert in to miles 
+//6 convert celciuse in to farenhite 
 // user define function
 function convert(){
     var c = document.getElementById('data').value
