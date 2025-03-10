@@ -275,3 +275,28 @@ console.log("The number of " + number + " factorial is = " +fact);
  var temp = number;
  var off = number.toString().length
  var sum = 0;
+// while(temp > 0) {
+//  1  console.log(temp)
+    var digit = temp%10;
+//  2  console.log(digit)
+    sum += digit**off;
+//  3  console.log(sum)
+    temp = parseInt(temp/10);
+//  4  console.log(temp)
+//  5  console.log('------------')
+
+// }
+// if (sum == number){
+//     console.log(number+ " is armstrom number")
+//  }
+// else{
+//     console.log(number + " is not armstrome number")
+// }
+
+//  1  console.log(temp)
+//  2  console.log(digit)
+//  3  console.log(sum)
+//  4  console.log(temp)
+//  5  console.log('------------')
+//  Thease 5 console is for how the program work step by step
+
