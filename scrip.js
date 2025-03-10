@@ -256,12 +256,22 @@ factrrr (1);
 console.log("The number of " + number + " factorial is = " +fact);
 
 //13 Write a program to print a number that is given by user
-// function table (number){
-//     for (var i = 1; i <=10;  i++) {
-//         var res = i*number;
-//         console.log(number+" x "+ i+ " = " + res  ) 
+ function table (number){
+     for (var i = 1; i <=10;  i++) {
+         var res = i*number;
+         console.log(number+" x "+ i+ " = " + res  ) 
         
-//     }
-// }
-//  table(5);   
+     }
+ }
+ table(5);   
 
+
+// 14 To check Armstrom number
+// In the case of an Armstrom numberog 3 dight, the sum of cubes of each 
+// dight is equal to the number of it self.
+// For example 153 is an armstrom number because
+// 1 * 1 * 1 + 5 * 5 * 5 + 3 * 3 * 3 = 153 
+ var number = prompt("Please enter a number");
+ var temp = number;
+ var off = number.toString().length
+ var sum = 0;
