@@ -300,3 +300,20 @@ console.log("The number of " + number + " factorial is = " +fact);
 //  5  console.log('------------')
 //  Thease 5 console is for how the program work step by step
 
+// 22 Find armstrome number between an interval
+
+ var a = prompt(("Please enter first vaue"))
+ var b = prompt(("Please enter second vaue"))
+ for (let i =a ; i <=b; i++) {
+   var temp = i;
+   var numofdigit = i.toString().length
+   sum = 0;
+   while (temp > 0) {
+    var digit = temp%10
+    temp = parseInt(temp/10)
+    sum += digit ** numofdigit
+   }
+   if(sum == i){
+    console.log(i)
+   }
+ }
