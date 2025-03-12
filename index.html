@@ -21,7 +21,7 @@ function convert(){
     var f = (c * 1.8) +32 ;
     document.getElementById('result').innerText = `${f} Fahrenheit`
 }
-        //7 Check a number it is positive , negative , zero 
+  //7 Check a number it is positive , negative , zero 
 
 function check() {
 
@@ -30,8 +30,25 @@ function check() {
     document.getElementById('result').innerText = result;
 
 }
-        
+  //7 Check a number it is positive , negative , zero 
+function check() {
 
+    var value = document.getElementById('data').value;
+    if(value > 0){
+       result =`${value} is positive`;
+    }
+    else if(value < 0){
+        result =`${value} is negative`;
+    }
+    else if (value == 0) {
+        result =`${value} is zero`;
+    }
+    else{
+        result =`${value} is not a number`;
+    }
+ 
+    document.getElementById('result').innerText = result;
+}
 </script>
     
 </head>
