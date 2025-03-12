@@ -76,31 +76,11 @@ a = a-b;
 console.log(`This value is: ${a}, This value is ${b}`)
 
 //6 convert km in to miles 
-// user define function
-function convert(){
-    var kms = document.getElementById('data').value
-    const facter = 0.62137
-    var miles = kms  * facter
-    document.getElementById('result').innerText = `${miles} miles`
-}
+// This file is availabe in html file
 
 //6 convert celciuse in to farenhite 
-// user define function
-function convert(){
-    var c = document.getElementById('data').value
-    var f = (c * 1.8) +32 ;
-    document.getElementById('result').innerText = `${f} Fahrenheit`
-}
+//  This file is availabe in html file
 
-//7 Check a number it is positive , negative , zero 
-
-function check() {
-
-    var value = document.getElementById('data').value;
-    var result = Math.sign(value)
-    document.getElementById('result').innerText = result;
-
-}
 
 //7 Check a number it is positive , negative , zero 
 
