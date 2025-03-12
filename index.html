@@ -4,6 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+    //6 convert km in to miles 
+// user define function
+function convert(){
+    var kms = document.getElementById('data').value
+    const facter = 0.62137
+    var miles = kms  * facter
+    document.getElementById('result').innerText = `${miles} miles`
+}
+
+//6 convert celciuse in to farenhite 
+// user define function
+function convert(){
+    var c = document.getElementById('data').value
+    var f = (c * 1.8) +32 ;
+    document.getElementById('result').innerText = `${f} Fahrenheit`
+}
+</script>
+    
 </head>
 <body>
     
