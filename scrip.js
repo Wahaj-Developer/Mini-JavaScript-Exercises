@@ -301,14 +301,13 @@ console.log("The number of " + number + " factorial is = " +fact);
 // A string is a palindrome if it is read te same from forwarde to bakwarde 
 // For example: dad and madam read same either forwarde or backward
 // Array methode
-// var string = prompt(("Please enter a word"));
-// var stringArray = string.split('');
-// var stringArrayRev = stringArray.reverse();
-// var revstring = stringArrayRev.join('');
-
-// if (string === revstring){
-//   console.log("The stringe is palindrome")
-// }
-// else {
-//   console.log("The stringe is not palindrome")
-// }
+ var string = prompt(("Please enter a word"));
+ var stringArray = string.split('');
+ var stringArrayRev = stringArray.reverse();
+ var revstring = stringArrayRev.join('');
+ if (string === revstring){
+   console.log("The stringe is palindrome")
+ }
+ else {
+   console.log("The stringe is not palindrome")
+ }
