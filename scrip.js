@@ -76,17 +76,18 @@ a = a-b;
 console.log(`This value is: ${a}, This value is ${b}`)
 
 //6 convert km in to miles 
-// This file is availabe in html file
+// This exersisie is availabe in html file
 
 //6 convert celciuse in to farenhite 
-//  This file is availabe in html file
-//7 Check a number it is positive , negative , zero 
- //  This file is availabe in html file
-
+//  This excersise is availabe in html file
 
 //7 Check a number it is positive , negative , zero 
-//  This file is availabe in html file
-
+ //  This exersise is availabe in html file
+    // Using Math.sign() mthod
+ 
+//7 Check a number it is positive , negative , zero 
+//  This exersise is availabe in html file
+// Using is else ststement
 
 //8 Genrate a random number
 //this is for floating number start its in didit but when condition complet it get in to point example: x*(100-1)+1 1    
