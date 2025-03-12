@@ -80,28 +80,13 @@ console.log(`This value is: ${a}, This value is ${b}`)
 
 //6 convert celciuse in to farenhite 
 //  This file is availabe in html file
+//7 Check a number it is positive , negative , zero 
+ //  This file is availabe in html file
 
 
 //7 Check a number it is positive , negative , zero 
+//  This file is availabe in html file
 
-function check() {
-
-    var value = document.getElementById('data').value;
-    if(value > 0){
-       result =`${value} is positive`;
-    }
-    else if(value < 0){
-        result =`${value} is negative`;
-    }
-    else if (value == 0) {
-        result =`${value} is zero`;
-    }
-    else{
-        result =`${value} is not a number`;
-    }
- 
-    document.getElementById('result').innerText = result;
-}
 
 //8 Genrate a random number
 //this is for floating number start its in didit but when condition complet it get in to point example: x*(100-1)+1 1    
