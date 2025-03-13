@@ -330,3 +330,17 @@ console.log("The number of " + number + " factorial is = " +fact);
      
     }
  }
+
+
+//  method using variable (2)
+// var string = prompt(("Please enter a word")) 
+// var len = string.length;
+// var msg = "It is palindrom string"
+// for (let i = 0; i < len/2; i++) {
+//    if (string[i] != string[len - 1 - 1]){
+       
+//         msg = "It is palindrom string"
+//    }
+//    console.log(msg)
+   
+// }
