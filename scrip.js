@@ -311,3 +311,18 @@ console.log("The number of " + number + " factorial is = " +fact);
  else {
    console.log("The stringe is not palindrome")
  }
+// 16 For loop method
+// There is also two method in for loop
+ // using if else statement (1)
+// var string = prompt(("Please enter a word")) 
+// var len = string.length;
+// for (let i = 0; i < len/2; i++) {
+//    if (string[i] != string[len - 1 - 1]){
+//         console.log("It is not a palidrom")
+    
+//    }
+  
+//     else{
+//     console.log("It is a palidrom")
+//     }
+// }
