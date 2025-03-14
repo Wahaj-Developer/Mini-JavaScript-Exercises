@@ -360,18 +360,18 @@ console.log("The number of " + number + " factorial is = " +fact);
           console.log(string + " => " + letter + " => " + counter)
 
 // 18 Check wheather the string start and end with certain character
-// var string = prompt(("Please enter a word"))
-// var teststart =string.startsWith('W')
-// var testend =  string.endsWith('j')
-// if (teststart == true && testend == true){
-//     console.log(string + " Start with W and ends with j")
-// }
-// else if (teststart == true && testend == false){
-//     console.log(string + " Start with W and not ends with j")
-// }
-// else if (teststart == false && testend == true){
-//     console.log(string + " not start with W but end with j")
-// }
-// else {
-//       console.log(string + " Both statement are wronge you are cooked")
-// } 
+ var string = prompt(("Please enter a word"))
+ var teststart =string.startsWith('W')
+ var testend =  string.endsWith('j')
+ if (teststart == true && testend == true){
+     console.log(string + " Start with W and ends with j")
+ }
+ else if (teststart == true && testend == false){
+     console.log(string + " Start with W and not ends with j")
+ }
+ else if (teststart == false && testend == true){
+     console.log(string + " not start with W but end with j")
+ }
+ else {
+       console.log(string + " Both statement are wronge you are cooked")
+ } 
