@@ -344,3 +344,17 @@ console.log("The number of " + number + " factorial is = " +fact);
     console.log(msg)
    
  }
+
+// 17 Programe to check the number 
+// of the occurrances of cheracter in a string using for loop
+// For example : In my name wahaj a comes two time a is a occurrence character
+// var string = prompt(("Please enter a word"));
+// var letter = prompt(("Please enter a letter that you want to check"));
+// var stringlen = string.length;
+// var counter = 0;
+// for (let i = 0; i <stringlen ;++i) {
+//     if(string[i] == letter){
+//          counter++;
+//         }
+//     }
+//          console.log(string + " => " + letter + " => " + counter)
