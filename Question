@@ -1,0 +1,100 @@
+All answer available in script.js file.
+
+  //1  Print hellow word in three method
+
+ //2 adding two num
+
+ //3 adding two num from user side  just like a calculatoer
+
+// 3 find the square root of a num 
+
+//4  Find the area of a triangle (write triangle)
+
+// 4  Find the area of a regular triangle (any type of triangle)
+
+//4  Find the area of a regular triangle (any type of triangle)
+
+//5 sawaping using temporary variable(//   giving a value to the b and b value to the a)
+
+//5 without temperary variable
+
+//6 convert km in to miles 
+// This exersisie is availabe in html file
+
+//6 convert celciuse in to farenhite 
+//  This excersise is availabe in html file
+
+//7 Check a number it is positive , negative , zero 
+ //  This exersise is availabe in html file
+    // Using Math.sign() mthod
+ 
+//7 Check a number it is positive , negative , zero 
+//  This exersise is availabe in html file
+// Using is else ststement
+
+//8 Genrate a random number
+//this is for floating number start its in didit but when condition complet it get in to point example: x*(100-1)+1 1    
+//45.07438682462163
+
+//8 Genrate a random number
+//this is for integer number start its in didit but when condition complet it get in to point example: x*(100-1)+1 1    45
+
+//8 Genrate a random number
+
+//9 Cheack the number if it is evend or odd
+
+//9 Cheack the number if it is evend or odd
+// Using terminary operater
+
+//10 Check the number is prime or not
+// A prime number is a positive integer that is only divisible by 1 and it self.Example:2,3,5,7,11
+
+// 11 Find the largest num between three num
+
+// 11 Find the largest num between three num
+// User define
+
+//12 Find the factorial of a number
+// This factorial of a number is the product of all number from 1 to that number
+// Example: 1*2*3*4*5 = 120
+
+//12 Find the factorial of a number
+// Using recursion method
+
+//13 Write a program to print a number that is given by user
+
+// 14 To check Armstrom number
+// In the case of an Armstrom numberog 3 dight, the sum of cubes of each 
+// dight is equal to the number of it self.
+// For example 153 is an armstrom number because
+// 1 * 1 * 1 + 5 * 5 * 5 + 3 * 3 * 3 = 153
+
+// 22 Find armstrome number between an interval
+
+// 15 Check the last digit is same or not
+
+// 16 Check Palindrom using 
+// A string is a palindrome if it is read te same from forwarde to bakwarde 
+// For example: dad and madam read same either forwarde or backward
+// Array methode
+
+// 16 For loop method
+// There is also two method in for loop
+// using if else statement (1)
+
+//  method using variable (2)
+
+// 17 Programe to check the number 
+// of the occurrances of cheracter in a string using for loop
+// For example : In my name wahaj a comes two time a is a occurrence character
+
+// 18 Check wheather the string start and end with certain character
+
+// 19 Check weather a string contain substring 
+
+// 20 To convert a first letter of a string in uppercase
+
+
+
+
+
