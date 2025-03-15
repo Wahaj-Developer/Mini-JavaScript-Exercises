@@ -387,3 +387,14 @@ console.log("The number of " + number + " factorial is = " +fact);
  console.lg(test1);
  var test2   = string.indexOf(sub)
  console.log(test2)
+
+// 20 To convert a first letter of a string in uppercase
+ var string = prompt(("please enter a word"))
+ var first = string.charAt(0)
+// 1 console.log(first)
+// 2 console.log(first.toUpperCase())
+// 3 var rem = string.slice(1)
+ 3 console.log(rem)
+ var capital = first.toUpperCase()  + rem
+ console.log(capital)
+// console .log 1,2 and 3 isfor testing perpouse how code work step by step
