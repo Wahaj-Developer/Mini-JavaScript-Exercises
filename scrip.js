@@ -375,3 +375,15 @@ console.log("The number of " + number + " factorial is = " +fact);
  else {
        console.log(string + " Both statement are wronge you are cooked")
  } 
+
+// 19 Check weather a string contain substring 
+  Example in this line : Check weather a string contain substring. 
+ Check weather is substring
+ var string = prompt(("Pleae enter sentence "));
+ var sub     = "The";
+ console.log(string)
+ console.log(sub + " => " + "is substring")
+ var test1   =  string.includes(sub);
+ console.lg(test1);
+ var test2   = string.indexOf(sub)
+ console.log(test2)
