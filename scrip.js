@@ -408,3 +408,16 @@ console.log("The number of " + number + " factorial is = " +fact);
    var chars = string.match(reg);
    console.log(chars.join(','))
    console.log(chars.lenght)
+
+// 22 Find some of natural number using recuration
+// function sum (num){
+//     if(num>0){
+//         return num + sum(num-1)
+//     }
+//     else{
+//         return num;
+//     }
+// }
+// var res = sum(5) // change the value as your desaire
+// console.log(res);
+
