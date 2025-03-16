@@ -94,6 +94,13 @@ All answer available in script.js file.
 
 // 20 To convert a first letter of a string in uppercase
 
+// 21 count numder of vowels in a string using redex
+// Vowels charecter (A,E,I,O,U)
+// redex is used to match ,test find the charecter
+
+
+
+
 
 
 
