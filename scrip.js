@@ -398,3 +398,13 @@ console.log("The number of " + number + " factorial is = " +fact);
  var capital = first.toUpperCase()  + rem
  console.log(capital)
 // console .log 1,2 and 3 isfor testing perpouse how code work step by step
+
+
+// 21 count numder of vowels in a string using redex
+// Vowels charecter (A,E,I,O,U)
+// redex is used to match ,test find the charecter
+// var string = prompt("Enter a sentence")
+// const reg =  /[aeiou]/gi;
+// var chars = string.match(reg);
+// console.log(chars.join(','))
+// console.log(chars.lenght)
