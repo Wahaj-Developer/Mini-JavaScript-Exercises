@@ -432,8 +432,6 @@ console.log("The number of " + number + " factorial is = " +fact);
  }
 
 
-
-
 // 24 Simple calculator using switch case 
 / var number1 = prompt("Enter a first number")
  var number2 = prompt("Enter a second number")
