@@ -448,13 +448,13 @@ console.log("The number of " + number + " factorial is = " +fact);
 //         console.log(number1 + " - " + number2 + " = " + res);
 //         break;
 //         case "*" :
-//         var res = parseFloat(number1) * parseFloat(number2);
-//         console.log(number1 + " * " + number2 + " = " + res);
-//         break;
-//         case "/" :
-//         var res = parseFloat(number1) / parseFloat(number2);
-//         console.log(number1 + " / " + number2 + " = " + res);
-//         break;
-//         default:
-//             console.log("Invalid operator")
-// }
+         var res = parseFloat(number1) * parseFloat(number2);
+         console.log(number1 + " * " + number2 + " = " + res);
+         break;
+         case "/" :
+         var res = parseFloat(number1) / parseFloat(number2);
+         console.log(number1 + " / " + number2 + " = " + res);
+         break;
+         default:
+             console.log("Invalid operator")
+ }
