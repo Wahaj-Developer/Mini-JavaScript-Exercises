@@ -421,3 +421,12 @@ console.log("The number of " + number + " factorial is = " +fact);
    var res = sum(5) // change the value as your desaire
    console.log(res);
 
+// 23 Find the factor of a number
+///To be the facter of a num the number should exactely be divided(with 0 reminder)
+// Example : The facter of 12 is 1,2,3,4,6 and 12.
+// var number = prompt("Please enter a number")
+// for (let i = 1; i <=number ; i++) {
+//     if(number%i == 0)
+//     console.log(i)
+    
+// }
