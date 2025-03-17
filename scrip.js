@@ -430,3 +430,31 @@ console.log("The number of " + number + " factorial is = " +fact);
      console.log(i)
     
  }
+
+
+
+
+// 24 Simple calculator using switch case 
+// var number1 = prompt("Enter a first number")
+// var number2 = prompt("Enter a second number")
+// var oper = prompt("Please sleact one operation + , - , * , /")
+// switch(oper){
+//     case "+" :
+//         var res = parseFloat(number1) + parseFloat(number2);
+//         console.log(number1 + " + " + number2 + " = " + res);
+//         break;
+//         case "-" :
+//         var res = parseFloat(number1) - parseFloat(number2);
+//         console.log(number1 + " - " + number2 + " = " + res);
+//         break;
+//         case "*" :
+//         var res = parseFloat(number1) * parseFloat(number2);
+//         console.log(number1 + " * " + number2 + " = " + res);
+//         break;
+//         case "/" :
+//         var res = parseFloat(number1) / parseFloat(number2);
+//         console.log(number1 + " / " + number2 + " = " + res);
+//         break;
+//         default:
+//             console.log("Invalid operator")
+// }
