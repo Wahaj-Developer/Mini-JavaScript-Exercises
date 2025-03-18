@@ -480,9 +480,9 @@ console.log("The number of " + number + " factorial is = " +fact);
 // console.log(change)
 
 // Using regexp method
-// var string = "Mr Red has red car and red bike"
-// console.log(string)
-// var reg = new RegExp('red', 'gi')
-// var change = string.replace(reg, 'blue')
-// console.log(change)
+ var string = "Mr Red has red car and red bike"
+ console.log(string)
+ var reg = new RegExp('red', 'gi')
+ var change = string.replace(reg, 'blue')
+ console.log(change)
 
