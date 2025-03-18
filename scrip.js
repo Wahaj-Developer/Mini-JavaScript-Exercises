@@ -456,3 +456,17 @@ console.log("The number of " + number + " factorial is = " +fact);
          default:
              console.log("Invalid operator")
  }
+
+
+// 25 To print a fibonacci squence
+// The Fibonacci sequance is the integer sequnce where the first where the first two term are 0 or 1 
+// After that the first term is deffine as the sum of previouse two terms 
+// Example : 0,1,1,2,3,5,8,6,21
+// var a = 0;
+// var b = 1;
+// for(let i = 0; i <= 10 ; i++) { // change the num 10 as your desaire 
+// var temp = a + b ;
+// a= b;
+// b = temp;
+// }
+// You also made this program from while loop do while loop
