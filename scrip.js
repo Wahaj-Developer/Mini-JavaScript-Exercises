@@ -470,3 +470,19 @@ console.log("The number of " + number + " factorial is = " +fact);
 // b = temp;
 // }
 // You also made this program from while loop do while loop
+
+
+// 26 Replace the character of a string
+
+// var string = "Mr Red has red car and red bike"
+// console.log(string)
+// var change = string.replace('Red', 'Blue')
+// console.log(change)
+
+// Using regexp method
+// var string = "Mr Red has red car and red bike"
+// console.log(string)
+// var reg = new RegExp('red', 'gi')
+// var change = string.replace(reg, 'blue')
+// console.log(change)
+
