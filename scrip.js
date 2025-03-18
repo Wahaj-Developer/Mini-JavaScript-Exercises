@@ -464,11 +464,11 @@ console.log("The number of " + number + " factorial is = " +fact);
 // Example : 0,1,1,2,3,5,8,6,21
 // var a = 0;
 // var b = 1;
-// for(let i = 0; i <= 10 ; i++) { // change the num 10 as your desaire 
-// var temp = a + b ;
-// a= b;
-// b = temp;
-// }
+ for(let i = 0; i <= 10 ; i++) { // change the num 10 as your desaire 
+ var temp = a + b ;
+ a= b;
+ b = temp;
+ }
 // You also made this program from while loop do while loop
 
 
