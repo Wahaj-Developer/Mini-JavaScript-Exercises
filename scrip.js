@@ -500,7 +500,7 @@ console.log("The number of " + number + " factorial is = " +fact);
 // var string = prompt("Enter word");
 // var stringarry = string.split(' ');
 // stringarry.sort();
-// console.log(string);
-// console.log(stringarry);
-// console.log(stringarry.join(' '));
+ console.log(string);
+ console.log(stringarry);
+ console.log(stringarry.join(' '));
 
