@@ -494,3 +494,13 @@ console.log("The number of " + number + " factorial is = " +fact);
 // }
 // console.log(string + " reverse is " + res)
 
+
+
+// 28 Sort word in alphabetical order
+// var string = prompt("Enter word");
+// var stringarry = string.split(' ');
+// stringarry.sort();
+// console.log(string);
+// console.log(stringarry);
+// console.log(stringarry.join(' '));
+
