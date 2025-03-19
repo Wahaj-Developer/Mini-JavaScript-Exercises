@@ -488,11 +488,11 @@ console.log("The number of " + number + " factorial is = " +fact);
 // 27 Revese string using loop method
 // var string = prompt("Enter a word")
 // var stringlen = string.length
-// var res = ''
-// for (let i = stringlen-1; i >= 0 ; i--) {
-// res += string[i]
-// }
-// console.log(string + " reverse is " + res)
+ var res = ''
+ for (let i = stringlen-1; i >= 0 ; i--) {
+ res += string[i]
+ }
+ console.log(string + " reverse is " + res)
 
 
 
