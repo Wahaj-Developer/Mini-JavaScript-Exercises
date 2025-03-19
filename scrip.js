@@ -486,8 +486,8 @@ console.log("The number of " + number + " factorial is = " +fact);
  console.log(change)
 
 // 27 Revese string using loop method
-// var string = prompt("Enter a word")
-// var stringlen = string.length
+ var string = prompt("Enter a word")
+ var stringlen = string.length
  var res = ''
  for (let i = stringlen-1; i >= 0 ; i--) {
  res += string[i]
