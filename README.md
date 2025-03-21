@@ -45,3 +45,21 @@ Multiplication Table: Prints the multiplication table of a number.
 Armstrong Number: Checks if a number is an Armstrong number.
 
 Armstrong Numbers in an Interval: Finds all Armstrong numbers within a given interval.
+
+
+12. Palindrome Check
+Palindrome: Checks if a string is a palindrome using array methods and for loops.
+
+13. Character Occurrence
+Character Occurrence: Counts the number of occurrences of a specific character in a string.
+
+14. String Operations
+Starts and Ends With: Checks if a string starts and ends with specific characters.
+
+Substring Check: Checks if a string contains a specific substring.
+
+Capitalize First Letter: Converts the first letter of a string to uppercase.
+
+15. Vowel Count
+Count Vowels: Counts the number of vowels in a string using regular expressions.
+
