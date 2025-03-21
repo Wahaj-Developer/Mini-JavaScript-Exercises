@@ -14,3 +14,15 @@ Square Root: Calculates the square root of a number provided by the user.
 
 Area of a Triangle: Calculates the area of a triangle using base and height, and also using Heron's formula for any type of triangle.
 
+4. Swapping Values
+Swapping with Temporary Variable: Swaps the values of two variables using a temporary variable.
+
+Swapping without Temporary Variable: Swaps the values of two variables without using a temporary variable.
+
+5. Unit Conversion
+Kilometers to Miles: Converts kilometers to miles (implementation available in HTML file).
+
+Celsius to Fahrenheit: Converts Celsius to Fahrenheit (implementation available in HTML file).
+
+
+
