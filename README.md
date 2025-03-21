@@ -24,5 +24,14 @@ Kilometers to Miles: Converts kilometers to miles (implementation available in H
 
 Celsius to Fahrenheit: Converts Celsius to Fahrenheit (implementation available in HTML file).
 
+6. Number Checking
+Positive, Negative, or Zero: Checks if a number is positive, negative, or zero using Math.sign() and if-else statements.
 
+Even or Odd: Determines if a number is even or odd using if-else and ternary operator.
+
+7. Prime Number Check
+Prime Number: Checks if a number is prime or not.
+
+8. Largest Number
+Largest of Three Numbers: Finds the largest number among three numbers using Math.max() and a custom function.
 
