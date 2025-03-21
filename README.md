@@ -74,3 +74,11 @@ Calculator: A simple calculator using switch-case to perform basic arithmetic op
 
 19. Fibonacci Sequence
 Fibonacci Sequence: Generates the Fibonacci sequence up to a specified number of terms.
+
+20. String Manipulation
+Replace Characters: Replaces specific characters in a string using replace() and regular expressions.
+
+Reverse String: Reverses a string using a loop.
+
+21. Sorting
+Sort Words Alphabetically: Sorts words in a string in alphabetical order.
