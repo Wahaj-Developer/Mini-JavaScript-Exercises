@@ -63,3 +63,14 @@ Capitalize First Letter: Converts the first letter of a string to uppercase.
 15. Vowel Count
 Count Vowels: Counts the number of vowels in a string using regular expressions.
 
+16. Sum of Natural Numbers
+Sum Using Recursion: Calculates the sum of natural numbers using recursion.
+
+17. Factors of a Number
+Factors: Finds all factors of a given number.
+
+18. Simple Calculator
+Calculator: A simple calculator using switch-case to perform basic arithmetic operations.
+
+19. Fibonacci Sequence
+Fibonacci Sequence: Generates the Fibonacci sequence up to a specified number of terms.
