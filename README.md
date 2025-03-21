@@ -35,3 +35,13 @@ Prime Number: Checks if a number is prime or not.
 8. Largest Number
 Largest of Three Numbers: Finds the largest number among three numbers using Math.max() and a custom function.
 
+9. Factorial Calculation
+Factorial: Calculates the factorial of a number using a loop and recursion.
+
+10. Multiplication Table
+Multiplication Table: Prints the multiplication table of a number.
+
+11. Armstrong Number
+Armstrong Number: Checks if a number is an Armstrong number.
+
+Armstrong Numbers in an Interval: Finds all Armstrong numbers within a given interval.
