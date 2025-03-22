@@ -394,7 +394,7 @@ console.log("The number of " + number + " factorial is = " +fact);
 // 1 console.log(first)
 // 2 console.log(first.toUpperCase())
 // 3 var rem = string.slice(1)
- 3 console.log(rem)
+  console.log(rem)
  var capital = first.toUpperCase()  + rem
  console.log(capital)
 // console .log 1,2 and 3 isfor testing perpouse how code work step by step
@@ -433,7 +433,7 @@ console.log("The number of " + number + " factorial is = " +fact);
 
 
 // 24 Simple calculator using switch case 
-/ var number1 = prompt("Enter a first number")
+ var number1 = prompt("Enter a first number")
  var number2 = prompt("Enter a second number")
  var oper = prompt("Please sleact one operation + , - , * , /")
  switch(oper){
