@@ -1,8 +1,10 @@
-  //1  Print hellow word in three method
+  //1  Print hellow worid up to two method
 
- console.log("hellow world")
- alert("hellow world")
- document.write("hellow word")
+console.log("Hello world")
+alert("Hello world")
+document.write("Hello world")
+console.warn("Hello world")
+console.warn("Hello world")
 
  //2 adding two num
  let a = 5;
