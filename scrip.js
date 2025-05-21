@@ -27,12 +27,15 @@ console.warn("Hello world")
   console.log(b)
 
 
-//4  Find the area of a triangle (write triangle)
+//4  Find the area of a triangle (rrite triangle)
 
-var beas = prompt("please enter the base value");
-var height = prompt("please enter the height value");
-var area  = (beas* height)/2
-console.log(area)
+
+let base = parseInt(prompt("Value"));
+let height = parseInt(prompt("Value"));
+let c = (base*height)/2;
+console.log(c)
+
+
 // 4  Find the area of a regular triangle (any type of triangle)
 
 var a = 10;
