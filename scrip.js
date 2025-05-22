@@ -137,24 +137,26 @@ console.log(x+ " is "+ res+ " number")
 
 //10 Check the number is prime or not
 // A prime number is a positive integer that is only divisible by 1 and it self.Example:2,3,5,7,11
-var number = parseInt(prompt("Please enter a number"));
 
-if (number == 1) {
-    console.log(number + " nither is prime nor composite")
-}
- else if(number < 1){
-    console.log(number +" is not a prime number")
-}else{
-    for(var i = 2; i<number; i++ ){
-        if (number%i == 0 ){
-        var res =   console.log(number +" is not a prime number")
-        break;
+
+
+var x = parseInt(prompt("Enter a value"));
+
+if (x == 1) {
+    console.log("Neither prime nor composite: " + x);
+} else if (x < 1) {
+    console.log(x + " is not a prime number");
+} else if (x == 2) {
+    console.log("2 is a prime number");  
+} else {
+    var isPrime = true;
+    for (var i = 2; i < x; i++) {
+        if (x % i == 0) {
+            isPrime = false;
+            break;
+        }
     }
-    else{
-        var res =   console.log(number +" is a prime number")
-    }
-}
-    console.log.apply(res)
+    console.log(x + (isPrime ? " is a prime number" : " is not a prime number"));
 }
 
 
