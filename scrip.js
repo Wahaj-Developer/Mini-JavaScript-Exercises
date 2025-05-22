@@ -95,7 +95,7 @@ console.log(`This value is: ${a}, This value is ${b}`)
 // Using is else ststement
 
 //8 Genrate a random number
-//this is for floating number start its in didit but when condition complet it get in to point example: x*(100-1)+1 1    
+//this is for floating number start its in didit but when condition compelet it get in to point example: x*(100-1)+1 1    
 //45.07438682462163
 var x = Math.random()
 console.log("Before calculation "+x);
